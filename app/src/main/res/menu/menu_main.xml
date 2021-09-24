@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item  android:id="@+id/milekilometer"
+        android:title="Mile/Kilometer"/>
+
+    <item  android:id="@+id/feetmeter"
+        android:title="Feet/Meter"/>
+
+    <item  android:id="@+id/inchcentimeter"
+        android:title="Inch/Centimeter"
+        app:showAsAction="withText"/>
+
+</menu>

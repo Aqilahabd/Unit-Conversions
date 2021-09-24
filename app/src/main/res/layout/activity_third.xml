@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    tools:context=".activity_third">
+
+
+    <EditText
+        android:id="@+id/inputFeet"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="200dp"
+        android:background="#009900"
+        android:hint="Feet"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/outputFeet"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/inputFeet"
+        android:background="#64DD17"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize" />
+
+
+    <EditText
+        android:id="@+id/inputMeter"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputFeet"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:background="#009900"
+        android:hint="Meter"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/outputMeter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outputFeet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="39dp"
+        android:layout_toRightOf="@id/inputMeter"
+        android:background="#64DD17"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/outputMeter"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFB74D"
+        android:text="Back"
+        android:onClick="back"/>
+
+
+</RelativeLayout>
